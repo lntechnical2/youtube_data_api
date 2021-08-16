@@ -22,5 +22,5 @@ https://{ Heroku App Name }.herokuapp.com/api?link={YouTube link}
 ##### 2
 
 <p align="center">
-    <img src="http://streamtelegram.iamidiotareyoutoo.com/71259/1629118074.unknown_extension">
+    <img src="https://tg-link.herokuapp.com/dl/0/AgAD7K0xG1VJ0FQ.jpg">
 </p>

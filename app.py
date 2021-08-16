@@ -1,16 +1,15 @@
-import flask
+from flask import Flask
 from flask import request, jsonify
 from pyyoutube import Data 
-app = flask.Flask(__name__)
-app.config["DEBUG"] = True
+app = Flask(__name__)
 
 
-@app.route('/', methods=['GET'])
+@app.route('/')
 def home():
     return "<h1>Get YouTube Video Data </h1>"
 
 
-@app.route('/api', methods=['GET'])
+@app.route('/api')
 def api_id():
     if "link" in request.args:
         id = request.args['link']
@@ -19,4 +18,5 @@ def api_id():
     yt = Data(id).data
     return jsonify(yt)
         
-app.run()
+if __name__ == "__main__":
+    app.run( debug=True)

@@ -1,1 +1,11 @@
-
+{
+    "name": "YouTube Data API",
+    "description": "Create Your Own API",
+    "repository": "https://github.com/lntechnical2/youtube_data_api",
+    "keywords": ["API", "Flask"],
+     "buildpacks": [
+     {
+      "url": "heroku/python"
+     }
+    ]
+}

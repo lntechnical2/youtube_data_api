@@ -8,10 +8,12 @@
 
 ## How to Use
 
-```
+
 https://{ Heroku App Name }.herokuapp.com/api?link={YouTube link}
 
-```
+### In local Host
+http://127.0.0.1:5000/api?link={YouTube link}
+
 # Screenshots
 
 ##### 1

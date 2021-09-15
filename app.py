@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import request, jsonify
-from pyyoutube import Data 
+from py_youtube import Data 
 app = Flask(__name__)
 
 
@@ -15,7 +15,7 @@ def api_id():
         id = request.args['link']
     else:
         return "Error: No link field provided"
-    yt = Data(id).data
+    yt = Data(id).data()
     return jsonify(yt)
         
 if __name__ == "__main__":
